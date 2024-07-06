@@ -252,6 +252,8 @@ async function getAPI() {
 
   //Write data to file readme.md
   let readmeContent = `
+  # ${data.name}
+
   ## Active day 
   ![Active day](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeDays.png)
   
