@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const octokit = new Octokit({
-  auth: "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",
+  auth: process.env.GITHUB_TOKEN,
 });
 
 const orgName = "TickLabVN";
