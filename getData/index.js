@@ -266,7 +266,7 @@ async function getAPI() {
   `;
 
   fs.writeFileSync("README.md", readmeContent);
-  fs.writeFileSync("./completeTask/data.json", JSON.stringify(data, null, 2));
+  fs.writeFileSync("data.json", JSON.stringify(data, null, 2));
 }
 
 getAPI();
