@@ -34,6 +34,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Check data
+        run: cat data.json
+
+        
       - name: Create chart
         run: npm run createChart
         
