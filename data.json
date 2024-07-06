@@ -209,42 +209,7 @@
       "afternoon": 9,
       "evening": 0,
       "night": 0
-    },
-    "activeHour": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      1,
-      1,
-      6,
-      2,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "activeDay": [
-      1,
-      3,
-      0,
-      6,
-      0,
-      0,
-      2
-    ]
+    }
   },
   "highActivityPeriods": "",
   "topEngagement": "",
