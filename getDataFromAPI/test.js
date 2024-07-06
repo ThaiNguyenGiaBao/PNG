@@ -12,7 +12,7 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
 
-const orgName = "holistics";
+const orgName = "TickLabVN";
 
 const data = {
   name: "",
