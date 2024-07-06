@@ -250,80 +250,17 @@ async function getAPI() {
   await getRepoStats();
   await recentActivity();
 
-  // Write data to file readme.md
-//   let readmeContent = `# ${data.name}
-// ![GitHub Logo](${data.avarta})
+  //Write data to file readme.md
+  let readmeContent = `
+  ## Active day 
+  ![Active day](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeDays.png)
+  
+  ## Active hour
+  ![Active hour](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeHours.png)
 
-// ## Description
-// ${data.description}
+  `;
 
-// ## Organization Details
-// - Founded: ${data.founded}
-// - Active Members: ${data.activeMembers}
-// - Public Repositories: ${data.publicRepositories}
-// - Programming Languages: ${data.programmingLanguages.join(", ")}
-
-// ## Followers
-// ${data.followers}
-
-// ## Contributors
-// ${data.contributors}
-
-// ## Recent Additions
-// ${data.recentAdditions}
-
-// ## Stargazers Evolution
-// - Total: ${data.stargazersEvolution.total}
-// - New Per Day: ${data.stargazersEvolution.newPerDay}
-
-// ## Coding Habits
-// - Active Hours: ${data.codingHabits.activeHours}
-
-// ## Top Repositories
-// ${data.topRepositories.map((repo) => `- ${repo}`).join("\n")}
-
-// ## Repository Stats
-// - Total Stars: ${data.repositoryStats.totalStars}
-// - Total Forks: ${data.repositoryStats.totalForks}
-// - Total Open Issues: ${data.repositoryStats.totalOpenIssues}
-// - Total Closed Issues: ${data.repositoryStats.totalClosedIssues}
-
-// ## Growth Trends
-// ${data.growthTrends}
-
-// ## Issue Resolution Time
-// ${data.issueResolutionTime}
-
-// ## Recent Activity
-// - Push Events: ${data.recentActivity.pushEvents.join(", ")}
-// - Issue Events: ${data.recentActivity.issueEvents.join(", ")}
-// - Pull Request Events: ${data.recentActivity.pullRequestEvents.join(", ")}
-
-// ## Coding Habits (Detailed)
-// - Morning: ${data.recentActivity.codingHabits.morning}
-// - Afternoon: ${data.recentActivity.codingHabits.afternoon}
-// - Evening: ${data.recentActivity.codingHabits.evening}
-// - Night: ${data.recentActivity.codingHabits.night}
-
-// ## High Activity Periods
-// ${data.highActivityPeriods}
-
-// ## Top Engagement
-// ${data.topEngagement}
-
-// ## Contact
-// ${data.contact}
-
-// ## GitHub URL
-// ${data.githubUrl}
-
-// ## Social Media
-// - Twitter: ${data.socialMedia.twitter}
-// - LinkedIn: ${data.socialMedia.linkedin}
-// - Facebook: ${data.socialMedia.facebook}
-// `;
-
-  //fs.writeFileSync("README.md", readmeContent);
+  fs.writeFileSync("README.md", readmeContent);
   fs.writeFileSync("./completeTask/data.json", JSON.stringify(data, null, 2));
 }
 
