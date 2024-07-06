@@ -1,0 +1,13 @@
+name: 'Update README with Org Repo Data'
+description: 'Crawls organization data using @octokit/rest and updates README.md'
+inputs:
+  org-name:
+    description: 'Get organization name'
+    required: true
+    default: 'org1'
+  token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

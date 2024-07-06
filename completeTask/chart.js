@@ -3,28 +3,26 @@ const { createCanvas } = require("canvas");
 const fs = require("fs");
 const path = require("path");
 
+
 // Register necessary components for Chart.js
 Chart.register(...registerables);
 
-fs.readFile(
-  "C:\\Users\\Admin\\Desktop\\Summerprogram\\GitAction\\StatOrganization\\completeTask\\data.json",
-  "utf8",
-  (err, jsonString) => {
-    if (err) {
-      console.log("File read failed:", err);
-      return;
-    }
-    try {
-      data = JSON.parse(jsonString);
-      createRecentActivityChart(data);
-      createLanguagesChart(data);
-      createActiveDayChart(data);
-      createActiveHourChart(data);
-    } catch (err) {
-      console.log("Error parsing JSON string:", err);
-    }
+fs.readFile("data.json", "utf8", (err, jsonString) => {
+  if (err) {
+    console.log("File read failed:", err);
+    return;
   }
-);
+  try {
+    //console.log("File data:", jsonString);
+    let data = JSON.parse(jsonString);
+    createRecentActivityChart(data);
+    createLanguagesChart(data);
+    createActiveDayChart(data);
+    createActiveHourChart(data);
+  } catch (err) {
+    console.log("Error parsing JSON string:", err);
+  }
+});
 
 function createLanguagesChart(data) {
   // Create a canvas
@@ -101,7 +99,7 @@ function createRecentActivityChart(data) {
   );
   // Chart configuration
   const config = {
-    type: "bar",
+    type: "line",
     data: {
       labels: labels,
       datasets: [
