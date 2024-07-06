@@ -1,21 +1,26 @@
 {
-  "name": "TickLab",
-  "founded": 2023,
-  "description": "Start here, go anywhere",
-  "avarta": "https://avatars.githubusercontent.com/u/128288626?v=4",
-  "activeMembers": 4,
-  "publicRepositories": 20,
+  "name": "Holistics",
+  "founded": 2015,
+  "description": "",
+  "avarta": "https://avatars.githubusercontent.com/u/12168382?v=4",
+  "activeMembers": 1,
+  "publicRepositories": 21,
   "programmingLanguages": [
-    "TypeScript",
-    "JavaScript",
-    "CSS",
-    "Dockerfile",
-    "HTML",
-    "Shell",
-    "Python",
-    "Rust",
+    "Ruby",
     "Go",
-    "Astro"
+    "HTML",
+    "JavaScript",
+    "Python",
+    "R",
+    "TypeScript",
+    "ANTLR",
+    "PEG.js",
+    "TSQL",
+    "SCSS",
+    "CSS",
+    "C",
+    "Shell",
+    "PowerShell"
   ],
   "followers": "",
   "contributors": "",
@@ -30,75 +35,101 @@
   },
   "topRepositories": [
     {
-      "name": "tonic",
-      "description": "Swagger documentation for Go",
-      "license": null,
-      "stars": 35,
-      "forks": 1,
-      "openIssues": 0
+      "name": "dbml",
+      "description": "Database Markup Language (DBML), designed to define and document database structures",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "stars": 2521,
+      "forks": 163,
+      "openIssues": 99
     },
     {
-      "name": "tpulse",
-      "description": "⏳Collect working time from members",
+      "name": "js",
+      "description": "Holistics open-source javascript packages",
       "license": null,
-      "stars": 19,
-      "forks": 0,
-      "openIssues": 0
-    },
-    {
-      "name": "simple-csv-query-tool",
-      "description": "C++ challenge for collborators",
-      "license": null,
-      "stars": 4,
-      "forks": 1,
+      "stars": 31,
+      "forks": 2,
       "openIssues": 2
+    },
+    {
+      "name": "pgcp",
+      "description": "Copying tables between Postgres databases (for analytics purpose)",
+      "license": null,
+      "stars": 7,
+      "forks": 0,
+      "openIssues": 5
     }
   ],
   "repositoryStats": {
-    "totalStars": 59,
-    "totalForks": 6,
-    "totalOpenIssues": 6,
+    "totalStars": 2582,
+    "totalForks": 177,
+    "totalOpenIssues": 119,
     "totalClosedIssues": 0,
     "languages": [
       {
-        "language": "Go",
-        "percentage": "0.56"
-      },
-      {
-        "language": "Rust",
-        "percentage": "4.84"
+        "language": "JavaScript",
+        "percentage": "76.92"
       },
       {
         "language": "TypeScript",
-        "percentage": "71.78"
+        "percentage": "3.01"
       },
       {
-        "language": "JavaScript",
-        "percentage": "8.83"
+        "language": "ANTLR",
+        "percentage": "2.94"
       },
       {
-        "language": "CSS",
-        "percentage": "0.65"
+        "language": "PEG.js",
+        "percentage": "0.85"
       },
       {
-        "language": "HTML",
-        "percentage": "1.71"
+        "language": "TSQL",
+        "percentage": "0.94"
       },
       {
-        "language": "Shell",
-        "percentage": "0.34"
+        "language": "Ruby",
+        "percentage": "12.34"
       },
       {
-        "language": "Astro",
-        "percentage": "9.46"
-      },
-      {
-        "language": "Dockerfile",
-        "percentage": "0.07"
+        "language": "SCSS",
+        "percentage": "0.04"
       },
       {
         "language": "Python",
-        "percentage": "1.75"
+        "percentage": "0.76"
+      },
+      {
+        "language": "R",
+        "percentage": "0.15"
+      },
+      {
+        "language": "HTML",
+        "percentage": "0.06"
+      },
+      {
+        "language": "CSS",
+        "percentage": "0.01"
+      },
+      {
+        "language": "Go",
+        "percentage": "0.05"
+      },
+      {
+        "language": "C",
+        "percentage": "1.83"
+      },
+      {
+        "language": "Shell",
+        "percentage": "0.09"
+      },
+      {
+        "language": "PowerShell",
+        "percentage": "0.02"
       }
     ]
   },
@@ -107,12 +138,12 @@
   "recentActivity": {
     "pushEvents": [
       0,
-      1,
-      0,
-      2,
       0,
       0,
-      2,
+      3,
+      3,
+      3,
+      0,
       0,
       0,
       0,
@@ -175,7 +206,7 @@
       0,
       0,
       0,
-      2,
+      0,
       0,
       0,
       0,
@@ -205,21 +236,21 @@
       0
     ],
     "codingHabits": {
-      "morning": 2,
-      "afternoon": 9,
-      "evening": 0,
-      "night": 0
+      "morning": 6,
+      "afternoon": 1,
+      "evening": 3,
+      "night": 7
     }
   },
   "highActivityPeriods": "",
   "topEngagement": "",
-  "contact": "ticklab.vn@gmail.com",
-  "githubUrl": "https://github.com/TickLabVN",
+  "contact": null,
+  "githubUrl": "https://github.com/holistics",
   "socialMedia": {
     "twitter": null,
     "linkedin": "",
     "facebook": ""
   },
-  "blogUrl": "https://ticklab.vn",
+  "blogUrl": "http://www.holistics.io",
   "frameworks": {}
 }
