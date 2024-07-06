@@ -1,4 +1,4 @@
-name: Update READMEx
+name: Update README
 
 permissions: write-all
 
@@ -19,7 +19,6 @@ jobs:
 
       - name: Use Node.js
         uses: actions/setup-node@v2
-        
         with:
           node-version: "12"
 
@@ -36,7 +35,15 @@ jobs:
 
       - name: Create chart
         run: npm run createChart
-
+        
+      - name: Verify chart creation
+        run: |
+          if [ ! -f ./path/to/your/chart.png ]; then
+            echo "Chart creation failed"
+            exit 1
+          else
+            echo "Chart creation successful"
+          fi
       
       - name: Commit changes
         run: |
