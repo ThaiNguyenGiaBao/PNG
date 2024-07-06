@@ -262,7 +262,7 @@ async function getAPI() {
 
 
    ## Languages percentage
-  ![Active hour](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeHours.png)
+  ![Active hour](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/languages.png)
   `;
 
   fs.writeFileSync("README.md", readmeContent);
