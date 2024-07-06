@@ -19,6 +19,7 @@ jobs:
 
       - name: Use Node.js
         uses: actions/setup-node@v2
+        
         with:
           node-version: "12"
 
@@ -28,7 +29,7 @@ jobs:
       - name: Use custom action to get data and update README
         uses: ./getData
         with:
-          org-name: "holistics"
+          org-name: "TickLabVN"
           token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
