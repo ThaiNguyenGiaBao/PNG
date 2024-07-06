@@ -5,7 +5,19 @@
   "avarta": "https://avatars.githubusercontent.com/u/12168382?v=4",
   "activeMembers": 1,
   "publicRepositories": 21,
+  "name": "Holistics",
+  "founded": 2015,
+  "description": "",
+  "avarta": "https://avatars.githubusercontent.com/u/12168382?v=4",
+  "activeMembers": 1,
+  "publicRepositories": 21,
   "programmingLanguages": [
+    "Ruby",
+    "Go",
+    "HTML",
+    "JavaScript",
+    "Python",
+    "R",
     "Ruby",
     "Go",
     "HTML",
@@ -17,9 +29,15 @@
     "PEG.js",
     "TSQL",
     "SCSS",
+    "ANTLR",
+    "PEG.js",
+    "TSQL",
+    "SCSS",
     "CSS",
     "C",
+    "C",
     "Shell",
+    "PowerShell"
     "PowerShell"
   ],
   "followers": "",
@@ -47,11 +65,28 @@
       "stars": 2521,
       "forks": 163,
       "openIssues": 99
+      "name": "dbml",
+      "description": "Database Markup Language (DBML), designed to define and document database structures",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "stars": 2521,
+      "forks": 163,
+      "openIssues": 99
     },
     {
       "name": "js",
       "description": "Holistics open-source javascript packages",
+      "name": "js",
+      "description": "Holistics open-source javascript packages",
       "license": null,
+      "stars": 31,
+      "forks": 2,
+      "openIssues": 2
       "stars": 31,
       "forks": 2,
       "openIssues": 2
@@ -59,7 +94,12 @@
     {
       "name": "pgcp",
       "description": "Copying tables between Postgres databases (for analytics purpose)",
+      "name": "pgcp",
+      "description": "Copying tables between Postgres databases (for analytics purpose)",
       "license": null,
+      "stars": 7,
+      "forks": 0,
+      "openIssues": 5
       "stars": 7,
       "forks": 0,
       "openIssues": 5
@@ -69,13 +109,20 @@
     "totalStars": 2582,
     "totalForks": 177,
     "totalOpenIssues": 119,
+    "totalStars": 2582,
+    "totalForks": 177,
+    "totalOpenIssues": 119,
     "totalClosedIssues": 0,
     "languages": [
       {
         "language": "JavaScript",
         "percentage": "76.92"
+        "language": "JavaScript",
+        "percentage": "76.92"
       },
       {
+        "language": "TypeScript",
+        "percentage": "3.01"
         "language": "TypeScript",
         "percentage": "3.01"
       },
@@ -86,8 +133,20 @@
       {
         "language": "PEG.js",
         "percentage": "0.85"
+        "language": "ANTLR",
+        "percentage": "2.94"
       },
       {
+        "language": "PEG.js",
+        "percentage": "0.85"
+      },
+      {
+        "language": "TSQL",
+        "percentage": "0.94"
+      },
+      {
+        "language": "Ruby",
+        "percentage": "12.34"
         "language": "TSQL",
         "percentage": "0.94"
       },
@@ -106,16 +165,31 @@
       {
         "language": "R",
         "percentage": "0.15"
+        "language": "SCSS",
+        "percentage": "0.04"
+      },
+      {
+        "language": "Python",
+        "percentage": "0.76"
+      },
+      {
+        "language": "R",
+        "percentage": "0.15"
       },
       {
         "language": "HTML",
+        "percentage": "0.06"
         "percentage": "0.06"
       },
       {
         "language": "CSS",
         "percentage": "0.01"
+        "language": "CSS",
+        "percentage": "0.01"
       },
       {
+        "language": "Go",
+        "percentage": "0.05"
         "language": "Go",
         "percentage": "0.05"
       },
@@ -126,8 +200,16 @@
       {
         "language": "Shell",
         "percentage": "0.09"
+        "language": "C",
+        "percentage": "1.83"
       },
       {
+        "language": "Shell",
+        "percentage": "0.09"
+      },
+      {
+        "language": "PowerShell",
+        "percentage": "0.02"
         "language": "PowerShell",
         "percentage": "0.02"
       }
@@ -140,6 +222,9 @@
       0,
       0,
       0,
+      3,
+      3,
+      3,
       3,
       3,
       3,
@@ -233,6 +318,7 @@
       0,
       0,
       0,
+      0,
       0
     ],
     "codingHabits": {
@@ -281,11 +367,14 @@
   "topEngagement": "",
   "contact": null,
   "githubUrl": "https://github.com/holistics",
+  "contact": null,
+  "githubUrl": "https://github.com/holistics",
   "socialMedia": {
     "twitter": null,
     "linkedin": "",
     "facebook": ""
   },
+  "blogUrl": "http://www.holistics.io",
   "blogUrl": "http://www.holistics.io",
   "frameworks": {}
 }
