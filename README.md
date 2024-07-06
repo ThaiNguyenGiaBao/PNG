@@ -7,4 +7,7 @@
   ## Active hour
   ![Active hour](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeHours.png)
 
+
+   ## Languages percentage
+  ![Active hour](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeHours.png)
   
