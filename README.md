@@ -1,5 +1,5 @@
 
-  # TickLab
+  # Holistics
 
   ## Active day 
   ![Active day](https://github.com/ThaiNguyenGiaBao/PNG/blob/main/completeTask/img/activeDays.png)
