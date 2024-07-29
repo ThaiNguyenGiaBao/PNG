@@ -134,7 +134,7 @@
       0,
       0,
       4,
-      0,
+      2,
       0,
       0
     ],
@@ -205,10 +205,10 @@
       0
     ],
     "codingHabits": {
-      "morning": 8,
+      "morning": 9,
       "afternoon": 13,
       "evening": 0,
-      "night": 1
+      "night": 2
     }
   },
   "highActivityPeriods": "",
