@@ -4,7 +4,7 @@
   "description": "Start here, go anywhere",
   "avarta": "https://avatars.githubusercontent.com/u/128288626?v=4",
   "activeMembers": 4,
-  "publicRepositories": 20,
+  "publicRepositories": 19,
   "programmingLanguages": [
     "TypeScript",
     "JavaScript",
@@ -38,67 +38,73 @@
       "openIssues": 0
     },
     {
-      "name": "tpulse",
-      "description": "⏳Collect working time from members",
-      "license": null,
-      "stars": 19,
-      "forks": 0,
-      "openIssues": 0
-    },
-    {
       "name": "simple-csv-query-tool",
       "description": "C++ challenge for collborators",
       "license": null,
       "stars": 4,
       "forks": 1,
       "openIssues": 2
+    },
+    {
+      "name": "development-path",
+      "description": "Interactive roadmaps, guides and other educational content to help members & collaborators grow in their careers.",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "stars": 1,
+      "forks": 0,
+      "openIssues": 0
     }
   ],
   "repositoryStats": {
-    "totalStars": 59,
+    "totalStars": 40,
     "totalForks": 6,
     "totalOpenIssues": 6,
     "totalClosedIssues": 0,
     "languages": [
       {
         "language": "Go",
-        "percentage": "0.56"
-      },
-      {
-        "language": "Rust",
-        "percentage": "4.86"
+        "percentage": "0.60"
       },
       {
         "language": "TypeScript",
-        "percentage": "71.79"
+        "percentage": "74.94"
+      },
+      {
+        "language": "Astro",
+        "percentage": "10.22"
       },
       {
         "language": "JavaScript",
-        "percentage": "8.76"
+        "percentage": "9.34"
       },
       {
         "language": "CSS",
         "percentage": "0.66"
       },
       {
-        "language": "HTML",
-        "percentage": "1.71"
-      },
-      {
-        "language": "Astro",
-        "percentage": "9.50"
-      },
-      {
         "language": "Shell",
-        "percentage": "0.34"
+        "percentage": "0.37"
       },
       {
         "language": "Dockerfile",
         "percentage": "0.07"
       },
       {
+        "language": "HTML",
+        "percentage": "1.82"
+      },
+      {
         "language": "Python",
-        "percentage": "1.76"
+        "percentage": "1.89"
+      },
+      {
+        "language": "Rust",
+        "percentage": "0.07"
       }
     ]
   },
@@ -107,19 +113,11 @@
   "recentActivity": {
     "pushEvents": [
       0,
-      1,
+      0,
       0,
       3,
       0,
       0,
-      2,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      2,
       0,
       0,
       0,
@@ -133,8 +131,16 @@
       0,
       0,
       0,
-      4,
-      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
@@ -199,16 +205,16 @@
       0,
       0,
       0,
-      2,
+      0,
       0,
       0,
       0
     ],
     "codingHabits": {
-      "morning": 9,
-      "afternoon": 13,
+      "morning": 0,
+      "afternoon": 7,
       "evening": 0,
-      "night": 2
+      "night": 0
     }
   },
   "highActivityPeriods": "",
