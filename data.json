@@ -63,7 +63,7 @@
   "repositoryStats": {
     "totalStars": 40,
     "totalForks": 6,
-    "totalOpenIssues": 6,
+    "totalOpenIssues": 5,
     "totalClosedIssues": 0,
     "languages": [
       {
@@ -114,7 +114,7 @@
     "pushEvents": [
       0,
       0,
-      0,
+      2,
       0,
       0,
       0,
@@ -180,7 +180,7 @@
     "pullRequestEvents": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -214,7 +214,7 @@
       "morning": 0,
       "afternoon": 0,
       "evening": 0,
-      "night": 0
+      "night": 4
     }
   },
   "highActivityPeriods": "",
