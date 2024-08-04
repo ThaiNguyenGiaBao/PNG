@@ -4,7 +4,7 @@
   "description": "Start here, go anywhere",
   "avarta": "https://avatars.githubusercontent.com/u/128288626?v=4",
   "activeMembers": 4,
-  "publicRepositories": 19,
+  "publicRepositories": 18,
   "programmingLanguages": [
     "TypeScript",
     "JavaScript",
@@ -68,19 +68,19 @@
     "languages": [
       {
         "language": "Go",
-        "percentage": "0.60"
+        "percentage": "0.58"
       },
       {
         "language": "TypeScript",
-        "percentage": "74.94"
+        "percentage": "75.45"
       },
       {
         "language": "Astro",
-        "percentage": "10.22"
+        "percentage": "10.14"
       },
       {
         "language": "JavaScript",
-        "percentage": "9.34"
+        "percentage": "9.06"
       },
       {
         "language": "CSS",
@@ -88,7 +88,7 @@
       },
       {
         "language": "Shell",
-        "percentage": "0.37"
+        "percentage": "0.35"
       },
       {
         "language": "Dockerfile",
@@ -96,11 +96,11 @@
       },
       {
         "language": "HTML",
-        "percentage": "1.82"
+        "percentage": "1.77"
       },
       {
         "language": "Python",
-        "percentage": "1.89"
+        "percentage": "1.84"
       },
       {
         "language": "Rust",
@@ -115,7 +115,7 @@
       0,
       0,
       2,
-      0,
+      7,
       0,
       0,
       0,
@@ -212,9 +212,9 @@
     ],
     "codingHabits": {
       "morning": 0,
-      "afternoon": 0,
+      "afternoon": 8,
       "evening": 0,
-      "night": 4
+      "night": 5
     }
   },
   "highActivityPeriods": "",
