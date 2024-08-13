@@ -124,7 +124,7 @@
       0,
       0,
       0,
-      0,
+      4,
       0,
       0,
       0,
@@ -212,7 +212,7 @@
     ],
     "codingHabits": {
       "morning": 0,
-      "afternoon": 9,
+      "afternoon": 13,
       "evening": 0,
       "night": 5
     }
