@@ -129,7 +129,7 @@
       0,
       0,
       0,
-      0,
+      10,
       0,
       0,
       0,
@@ -214,7 +214,7 @@
       "morning": 0,
       "afternoon": 13,
       "evening": 0,
-      "night": 5
+      "night": 15
     }
   },
   "highActivityPeriods": "",
