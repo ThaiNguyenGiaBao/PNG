@@ -15,7 +15,8 @@
     "Python",
     "Rust",
     "Go",
-    "Astro"
+    "Astro",
+    "C++"
   ],
   "followers": "",
   "contributors": "",
@@ -72,15 +73,15 @@
       },
       {
         "language": "TypeScript",
-        "percentage": "75.45"
+        "percentage": "75.39"
       },
       {
         "language": "Astro",
-        "percentage": "10.14"
+        "percentage": "10.13"
       },
       {
         "language": "JavaScript",
-        "percentage": "9.06"
+        "percentage": "9.05"
       },
       {
         "language": "CSS",
@@ -89,6 +90,10 @@
       {
         "language": "Shell",
         "percentage": "0.35"
+      },
+      {
+        "language": "C++",
+        "percentage": "0.08"
       },
       {
         "language": "Dockerfile",
@@ -136,7 +141,7 @@
       0,
       0,
       0,
-      0,
+      13,
       0,
       0,
       0,
@@ -211,10 +216,10 @@
       0
     ],
     "codingHabits": {
-      "morning": 0,
+      "morning": 9,
       "afternoon": 20,
       "evening": 0,
-      "night": 15
+      "night": 19
     }
   },
   "highActivityPeriods": "",
