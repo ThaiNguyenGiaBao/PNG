@@ -73,15 +73,15 @@
       },
       {
         "language": "TypeScript",
-        "percentage": "75.39"
+        "percentage": "75.28"
       },
       {
         "language": "Astro",
-        "percentage": "10.13"
+        "percentage": "10.11"
       },
       {
         "language": "JavaScript",
-        "percentage": "9.05"
+        "percentage": "9.04"
       },
       {
         "language": "CSS",
@@ -93,7 +93,7 @@
       },
       {
         "language": "C++",
-        "percentage": "0.08"
+        "percentage": "0.23"
       },
       {
         "language": "Dockerfile",
@@ -105,7 +105,7 @@
       },
       {
         "language": "Python",
-        "percentage": "1.84"
+        "percentage": "1.83"
       },
       {
         "language": "Rust",
@@ -142,7 +142,7 @@
       0,
       0,
       13,
-      0,
+      24,
       0,
       0,
       0,
@@ -216,10 +216,10 @@
       0
     ],
     "codingHabits": {
-      "morning": 9,
-      "afternoon": 20,
+      "morning": 21,
+      "afternoon": 22,
       "evening": 0,
-      "night": 19
+      "night": 29
     }
   },
   "highActivityPeriods": "",
