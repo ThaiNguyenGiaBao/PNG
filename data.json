@@ -62,7 +62,7 @@
     }
   ],
   "repositoryStats": {
-    "totalStars": 41,
+    "totalStars": 40,
     "totalForks": 7,
     "totalOpenIssues": 5,
     "totalClosedIssues": 0,
@@ -92,10 +92,6 @@
         "percentage": "0.35"
       },
       {
-        "language": "C++",
-        "percentage": "0.23"
-      },
-      {
         "language": "Dockerfile",
         "percentage": "0.07"
       },
@@ -110,6 +106,10 @@
       {
         "language": "Rust",
         "percentage": "0.07"
+      },
+      {
+        "language": "C++",
+        "percentage": "0.23"
       }
     ]
   },
