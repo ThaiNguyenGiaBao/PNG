@@ -34,7 +34,7 @@
       "name": "tonic",
       "description": "Swagger documentation for Go",
       "license": null,
-      "stars": 35,
+      "stars": 36,
       "forks": 1,
       "openIssues": 0
     },
@@ -62,7 +62,7 @@
     }
   ],
   "repositoryStats": {
-    "totalStars": 40,
+    "totalStars": 41,
     "totalForks": 7,
     "totalOpenIssues": 5,
     "totalClosedIssues": 0,
