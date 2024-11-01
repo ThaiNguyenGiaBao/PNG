@@ -208,7 +208,7 @@
       0,
       0,
       0,
-      2,
+      0,
       0,
       0,
       0,
@@ -216,8 +216,8 @@
       0
     ],
     "codingHabits": {
-      "morning": 3,
-      "afternoon": 1,
+      "morning": 0,
+      "afternoon": 0,
       "evening": 0,
       "night": 0
     }
